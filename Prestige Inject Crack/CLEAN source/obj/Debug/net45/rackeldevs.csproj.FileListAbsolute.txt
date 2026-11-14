@@ -1,0 +1,7 @@
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/obj/Debug/net45/rackeldevs.GeneratedMSBuildEditorConfig.editorconfig
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/obj/Debug/net45/rackeldevs.csproj.CoreCompileInputs.cache
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/bin/Debug/net45/OpenPrestige.exe.config
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/bin/Debug/net45/OpenPrestige.exe
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/bin/Debug/net45/OpenPrestige.pdb
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/obj/Debug/net45/OpenPrestige.exe
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/obj/Debug/net45/OpenPrestige.pdb

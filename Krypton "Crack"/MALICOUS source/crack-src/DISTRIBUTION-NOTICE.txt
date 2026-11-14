@@ -1,0 +1,13 @@
+WINTER CLIENT PROPRIETARY SOFTWARE NOTICE
+
+Project: WINTER CLIENT (mod id: sixsevenclient)
+Declared license: All-Rights-Reserved.
+
+Unless authorized in writing by the rights holder, do not modify, redistribute,
+or publish derivative copies of original WINTER CLIENT code and assets.
+Unauthorized copying, modification, or redistribution may be reported and
+pursued through legal remedies available under applicable law.
+
+Bundled third-party software, fonts, and icons are not covered by this notice
+and remain subject to their respective license terms. See the license files
+included with those components.

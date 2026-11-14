@@ -1,2 +1,6 @@
 # naughty-minecraft-stuff
-a bunch of malicous mods I have found, and the sources
+These are malicous minecraft mods.
+
+# sources guide
+MALICOUS source is where I got the original malicous file.
+CLEAN source is where you can get a clean version, from the official place.

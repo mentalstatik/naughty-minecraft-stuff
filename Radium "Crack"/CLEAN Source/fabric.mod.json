@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "pulsescanner",
+  "version": "1.0.0",
+  "name": "Pulse Scanner",
+  "description": "A glass-styled PvP/utility client: ClickGUI, HUD editor, ESP, render & world tweaks.",
+  "authors": [
+    "nova"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "pulsescanner.PulseScanner"
+    ]
+  },
+  "accessWidener": "pulsescanner.accesswidener",
+  "mixins": [
+    "pulsescanner.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}

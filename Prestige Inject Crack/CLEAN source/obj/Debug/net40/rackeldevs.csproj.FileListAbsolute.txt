@@ -1,0 +1,2 @@
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/obj/Debug/net40/rackeldevs.GeneratedMSBuildEditorConfig.editorconfig
+/home/slappin/Downloads/deobfuscating things ig/work/prestige/sanitized/obj/Debug/net40/rackeldevs.csproj.CoreCompileInputs.cache

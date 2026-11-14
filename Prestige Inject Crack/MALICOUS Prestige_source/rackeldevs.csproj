@@ -1,0 +1,42 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>OpenPrestige</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net40</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="OpenPrestige.Inter.ttf" />
+    <None Remove="OpenPrestige.server.pfx" />
+    <None Remove="OpenPrestige.mitm.crl" />
+    <None Remove="OpenPrestige.mitmproxy-ca-cert.cer" />
+    <None Remove="OpenPrestige.prestige_offline.dll" />
+    <None Remove="OpenPrestige.flows.zip" />
+    <None Remove="OpenPrestige.index.json" />
+    <None Remove="OpenPrestige.data.json" />
+    <EmbeddedResource Include="OpenPrestige.Inter.ttf" LogicalName="OpenPrestige.Inter.ttf" />
+    <EmbeddedResource Include="OpenPrestige.server.pfx" LogicalName="OpenPrestige.server.pfx" />
+    <EmbeddedResource Include="OpenPrestige.mitm.crl" LogicalName="OpenPrestige.mitm.crl" />
+    <EmbeddedResource Include="OpenPrestige.mitmproxy-ca-cert.cer" LogicalName="OpenPrestige.mitmproxy-ca-cert.cer" />
+    <EmbeddedResource Include="OpenPrestige.prestige_offline.dll" LogicalName="OpenPrestige.prestige_offline.dll" />
+    <EmbeddedResource Include="OpenPrestige.flows.zip" LogicalName="OpenPrestige.flows.zip" />
+    <EmbeddedResource Include="OpenPrestige.index.json" LogicalName="OpenPrestige.index.json" />
+    <EmbeddedResource Include="OpenPrestige.data.json" LogicalName="OpenPrestige.data.json" />
+  </ItemGroup>
+  <!-- Resolved from the target framework, not from a local path: ILSpy had emitted
+       HintPaths into the analysis machine's own .NET 8 shared framework. -->
+  <ItemGroup>
+    <Reference Include="System.Core" />
+    <Reference Include="System.IO.Compression" />
+  </ItemGroup>
+</Project>
