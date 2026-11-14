@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "echo.offline.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ShutdownRenderMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

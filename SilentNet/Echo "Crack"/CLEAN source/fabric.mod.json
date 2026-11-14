@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "echoloader",
+  "version": "1.3.39",
+  "name": "echoloader",
+  "description": "",
+  "authors": [
+    "ceejay"
+  ],
+  "environment": "*",
+  "entrypoints": {
+    "preLaunch": [
+      "dev.jadyen.drm.echo.loader.KnotEntryPoint"
+    ],
+    "main": [
+      "dev.jadyen.drm.echo.loader.KnotEntryPoint"
+    ]
+  },
+  "custom": {
+    "fabric-loom:generated": true
+  },
+  "mixins": [
+    "echo-offline-shutdown.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "1.21.11"
+  }
+}
